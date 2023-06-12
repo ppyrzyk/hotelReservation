@@ -41,7 +41,6 @@ public class Reservation {
     private int userId;
 
 
-    // reservation super and fields constructors
 
     public Reservation() {
     }
@@ -141,7 +140,6 @@ public class Reservation {
         this.userId = userId;
     }
 
-    // override to string method to contain all fields
 
     @Override
     public String toString() {
